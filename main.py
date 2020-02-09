@@ -1,9 +1,9 @@
-import requests
-import json
 
 
+def hallo(hi):
+    print(hi)
 
-url = 'https://www.cbr-xml-daily.ru/daily_json.js'
-response = requests.get(url)
-data = json.loads(response.text)
-print(data)
+
+if __name__ == '__main__':
+    hi = "Hallo World"
+    hallo(hi)
